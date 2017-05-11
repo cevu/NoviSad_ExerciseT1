@@ -9,3 +9,7 @@ RefactoringAction 1494526100295 BowlingException.java RENAME <initializer /1>=>B
 RefactoringAction 1494526114333 BowlingException.java ADD BowlingException()/2 METHOD
 RefactoringAction 1494526130403 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1494526139636 BowlingException.java 171 2 2 0
+RefactoringAction 1494527005290 BowlingGame.java ADD int num FIELD
+RefactoringAction 1494527007305 BowlingGame.java REMOVE num FIELD
+RefactoringAction 1494527008329 BowlingGame.java ADD int num FIELD
+EditAction 1494527091325 TestBowling.java 219 1 1 0

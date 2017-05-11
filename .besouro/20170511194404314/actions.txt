@@ -14,3 +14,9 @@ RefactoringAction 1494527007305 BowlingGame.java REMOVE num FIELD
 RefactoringAction 1494527008329 BowlingGame.java ADD int num FIELD
 EditAction 1494527091325 TestBowling.java 219 1 1 0
 EditAction 1494527352907 Frame.java 676 6 7 0
+RefactoringAction 1494527373228 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1494527378743 TestBowling.java RENAME test_=>void test_strike FIELD
+RefactoringAction 1494527379761 TestBowling.java RENAME test_strike=>void test_strike_ FIELD
+RefactoringAction 1494527380786 TestBowling.java RENAME test_strike_=>void test_strike FIELD
+RefactoringAction 1494527382303 TestBowling.java RENAME test_strike=>void test_strike() METHOD
+EditAction 1494527903772 BowlingGame.java 848 4 2 0

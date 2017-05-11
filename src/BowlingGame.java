@@ -9,17 +9,23 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	int num=0;
 	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
-		//to be implemented
+	public void addFrame(Frame frame) throws BowlingException{
+		if(num<10)
+		{
+		frames.add(new Frame(0,0));
+		num++;
+		} else
+			throw new BowlingException("Nije moguce kreirati vise od 10 ramova.");
 	}
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		
 	}
 	
 	// Returns the game score

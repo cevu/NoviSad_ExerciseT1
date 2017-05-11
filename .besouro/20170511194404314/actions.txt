@@ -13,3 +13,4 @@ RefactoringAction 1494527005290 BowlingGame.java ADD int num FIELD
 RefactoringAction 1494527007305 BowlingGame.java REMOVE num FIELD
 RefactoringAction 1494527008329 BowlingGame.java ADD int num FIELD
 EditAction 1494527091325 TestBowling.java 219 1 1 0
+EditAction 1494527352907 Frame.java 676 6 7 0

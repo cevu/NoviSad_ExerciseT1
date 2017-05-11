@@ -25,3 +25,4 @@ RefactoringAction 1494528701362 BowlingGame.java REMOVE addFrame(int, int) METHO
 RefactoringAction 1494529240819 TestBowling.java REMOVE test_strike() METHOD
 RefactoringAction 1494529292599 TestBowling.java ADD void test_strike() METHOD
 EditAction 1494529418722 TestBowling.java 386 2 4 1
+EditAction 1494529446758 Frame.java 931 6 7 0

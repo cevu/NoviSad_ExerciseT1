@@ -22,16 +22,22 @@ public class Frame {
 	}
 
 	//returns whether the frame is a strike or not
-	public boolean isStrike(){
+	public boolean isStrike() throws BowlingException{
 		if(firstThrow==10)
 			return true;
+		else if(firstThrow>10)
+			throw new BowlingException("Nemoguce.");
 		else
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		//to be implemented
+	public boolean isSpare() throws BowlingException{
+		if((firstThrow+secondThrow)==10)
+			return true;
+		else if ((firstThrow+secondThrow)>10)
+				throw new BowlingException("Nije moguc scenario.");
+		else
 		return false;
 	}
 }

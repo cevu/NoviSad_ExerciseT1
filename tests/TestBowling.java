@@ -6,7 +6,15 @@ public class TestBowling {
 
 	@Test
 	public void test_number_of_frames() throws BowlingException {
-		BowlingGame game = new BowlingGame();
+		BowlingGame kugla = new BowlingGame();
+		
+	}
+	@Test
+	public void test_strike() throws BowlingException{
+		Frame kugla = new Frame(10, 0);
+		boolean t = true;
+		assertEquals("false", "true", t);
+		
 		
 	}
 

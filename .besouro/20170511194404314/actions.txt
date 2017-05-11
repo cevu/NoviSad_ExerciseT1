@@ -20,3 +20,8 @@ RefactoringAction 1494527379761 TestBowling.java RENAME test_strike=>void test_s
 RefactoringAction 1494527380786 TestBowling.java RENAME test_strike_=>void test_strike FIELD
 RefactoringAction 1494527382303 TestBowling.java RENAME test_strike=>void test_strike() METHOD
 EditAction 1494527903772 BowlingGame.java 848 4 2 0
+RefactoringAction 1494528691718 BowlingGame.java ADD void addFrame(int, int) METHOD
+RefactoringAction 1494528701362 BowlingGame.java REMOVE addFrame(int, int) METHOD
+RefactoringAction 1494529240819 TestBowling.java REMOVE test_strike() METHOD
+RefactoringAction 1494529292599 TestBowling.java ADD void test_strike() METHOD
+EditAction 1494529418722 TestBowling.java 386 2 4 1
